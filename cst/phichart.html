@@ -1,0 +1,260 @@
+<html>
+<head>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+    <style type="text/css">
+        
+        .c0 {
+            color: rgb(210, 210, 210) ;
+            font-size: 12pt;
+            font-family: "Arial";
+        }
+        .c1 {
+            color: #9c9c9c;
+            font-size: 12pt;
+            font-family: "Arial";
+            padding: .5em 3em;
+            line-height: 2em;
+            max-width: 90%;
+        }
+
+        .heading {
+            color: rgb(201, 201, 201) ;
+            font-size: 20pt;
+            font-family: "Arial";
+        }
+
+        .imp_wrd {
+            color: rgb(189, 189, 189) ;
+            font-size: 14pt;
+            font-family: "Arial";
+            font-weight: bold;
+        }
+
+        .but_txt{
+            font-size: 10pt;
+            font-family: "Arial";
+            font-weight: bold;
+        }
+
+        .title {
+            color: #cdcdcd;
+            font-size: 40pt;
+            font-family: "Arial";
+        }
+
+        .sub-title {
+            color: #757575;
+            font-size: 22pt;
+            font-family: "Arial";
+        }
+
+        .link {
+            vertical-align: baseline;
+            font-size: inherit;
+            font-family: "Arial";
+            color: rgb(76, 164, 170) ;
+        }
+
+        a {
+            text-decoration: none ;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: rgb(94, 0, 0) ;
+        }
+
+        .list_txt {
+            color: #9c9c9c;
+            font-size: 12pt;
+            font-family: "Arial";
+            padding: .5em ;
+            line-height: 2em;
+            max-width: 90%;
+            margin-left: 0em;
+        }
+
+        ol {
+            margin: 0;
+            padding-top:10px;
+            margin-left: -130px;
+        }
+
+        li {
+            color: inherit;
+            font-size: 14pt;
+            font-family: "Arial";
+            padding-left: 0em;
+            padding-bottom: .5em;
+            line-height: 1em ;
+            margin-left: 10em;
+        }
+       
+        p {
+            position: relative;
+            color: inherit;
+            font-size: 12pt;
+            font-family: "Arial";
+            line-height: 1em;
+            padding: 1em;
+        }
+        #container {
+            position: absolute ;
+            width: 100% ;
+            height: 100%;
+        }
+
+        body  {
+            position: absolute ;
+            /* border: greenyellow dotted ; */
+            width: 100% ;
+            height: 100% ;
+            background-color: black ;
+            
+        }
+        #header {
+            position: relative ;
+            /* border: cyan 1px dotted ; */
+            top: 0% ;
+            left: 0%;
+            width: 100% ;
+            height: max-content ;
+            text-align: center ;
+            
+        }
+        #home_but {
+            position: absolute ;
+            border: cyan 1px dotted ;
+            padding: 20px ;
+            top: 11% ;
+            left: 82%;
+            width: max-content ;
+            height: max-content ;
+            text-align: center ;
+            z-index: 10;
+        }
+        #footer {
+            position: relative ;
+            display: block;
+            /* border: cyan 1px dotted ; */
+            width: 100% ;
+            height: 15%;
+            text-align: center ;
+        }
+        #title {
+            position: relative ;
+            /* border: red 1px dotted ; */
+            display: inline-block ;
+            width: max-content ;
+            text-align: center ;
+            padding:  5% 15%;
+        }
+
+        #content {
+            position: relative ;
+            /* border: rgb(246, 255, 0) 1px dotted ; */
+            width: relative ;
+            text-align: left ;
+            margin-left: 12% ;
+            margin-right: 12%;
+            margin-bottom: -2%;
+            color: rgb(203, 203, 203) ;  
+            height: min-content ;
+        }
+    </style>
+</head>
+
+<body>
+    <div  id=container>
+        <div id="home_but">
+            <span class="but_txt"><a class="link"href="https://studentweb.uvic.ca/~kaland/p2p.html">Back To<br>Project<br>Page</a></span>
+        </div>
+        <div id="header">
+            <div id="title">
+                <span class="sub-title">CSC 466 Fall UVIC</span>
+                <br>
+                <span class="title">Midterm Project Update</span>
+                <br>
+                <span class="sub-title">V00693690</span>
+            </div>
+        </div>
+        <div id="content">
+            <p class="c0">
+                <span class="heading">Since the start of term 4 main tasks:</span>
+                <ol>
+                    <li><span class="imp_wrd">Toolkit assembly</li>
+                    <li><span class="imp_wrd">Website Creation</li>
+                    <li><span class="imp_wrd">Research Gathering</li>
+                    <li><span class="imp_wrd">Topic Forming</li>
+                </ol>
+            </p>
+        </div>
+        
+        <div id="content">
+            <p class="c0">
+                <span class="heading">Tools</span>
+                <ol>
+                    <li>
+                        <span class="imp_wrd">ns-3 network simulator: <a class="link" href="https://www.nsnam.org">https://www.nsnam.org</a></span>
+                        <p class="list_txt">
+                            I spent the first few weeks of the term getting oriented with ns-3.
+                            It has taught me so much and I am forever a fan of this tool and community.
+                            It took me a long time to get it up and running and the links got messed up mid semester after the macOS upgrade (i caused the issue).
+                            
+                            After I worked through the examples in the documentation.
+                            
+                            Then I worked through a ddos simulation which helped me get oriented with the net-anim package which is a QT@4 application on mac. This was a bit tricky.
+                        </p>
+                    </li>   
+                    <li>
+                        <span class="imp_wrd">Zotero:</span>  
+                        <p class="list_txt">
+                            I have been using zotero to collect papers, it's a great tool that can help with note keeping, citation making, and even asset collection.
+                        </p>
+                    </li>
+                    <li>
+                        <span class="imp_wrd">Obsidian:</span>
+                        <p class="list_txt">
+                            great notekeeping tool with lasting value, but it can be a time-suck compared to hand-writing in my opinion.
+                        </p>
+                    </li>
+                </ol> 
+            </p>
+        </div>
+        <div id="content">
+            <p class="c0">
+                <span class="heading">Website Creation</span>
+                <p class="c1">
+                    I kept notes with jupyterlab as I worked through the conceptual overview section of the ns-3 documentation.
+                    Then the same for the ddos attack sim.
+                </p>
+            </p>
+        </div>
+        <div id="content">
+            <p class="c0">
+                <span class="heading">Research-Gathering</span>
+                <p class="c1">
+                    After that I started researching and trying to identify a topic, which i didn't have yet.
+                    In the beginning I think I felt lost and not familiar enough with the communications industry to answer questions like &quot;why can your idea do better&quot;?<br>
+                    I still don't really have that ability in my mind, but I will try to observe some effects and compare them, which I think will lead to those answers.r<br>
+                    After some thought, I wanted to do a project on network topology.
+                    I landed on mesh networks, I studies them for a while in depth, it became clear that abstract n-dimensional stuff was going to be a bit much, 
+                    I came to learn more about ad hoc networks.<br>
+                    So that is where I am now, mobile wireless ad hoc networks. Finally, I have a topic.
+                </p>
+            </p>
+        </div>
+        <div id="content">
+            <p class="c0">
+                <span class="heading">Topic: </span><span class="imp_wrd">Mobile Wireless Ad Hoc Networks for Emergency Response</span>
+                <p  class="c1">
+                    I am still learning on the fly but my goal is to analyze how assistance from autonomous mobile access points can help prevent partition in an hoc network.
+                    I have the simulation ability just about, and I have a few specifics to work out.
+                    I am excited to get back to work.
+                </p>
+            </p>
+        </div>
+        <div id="footer"></div>
+    </div>
+</body>
+</html>
